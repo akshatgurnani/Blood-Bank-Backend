@@ -14,7 +14,6 @@ else:
     app.config['SQLALCHEMY_DATABASE_URI'] = ''
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-# hello ji kya kr rhae ho
 db = SQLAlchemy(app)
 
 class Feedback(db.Model):
